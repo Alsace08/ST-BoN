@@ -57,7 +57,7 @@ if __name__ == '__main__':
         "decoding_mode": args.decoding_mode,
         "max_output_token": args.max_output_token,
 
-        # sampling (sc / st-bon / sep / grf / energy-field)
+        # sampling (sc / st-bon)
         "top_k": args.top_k,
         "top_p": args.top_p,
         "temperature_t": args.temperature_t,
@@ -72,7 +72,7 @@ if __name__ == '__main__':
     print(f"***** Dataset Size: *****\n{global_config['data_size']}")
     print(f"***** Decoding Mode: *****\n{args.decoding_mode}")
 
-    if args.decoding_mode in ["sc", "st-bon", "sep", "grf", "energy-field"]:
+    if args.decoding_mode in ["sc", "st-bon"]:
         print("***** Sampling / Geometric Params: *****")
         print(f"top_k = {args.top_k}")
         print(f"top_p = {args.top_p}")
