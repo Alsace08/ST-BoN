@@ -1,17 +1,24 @@
 
-<h1 style="text-align: center;">
-Sampling-Efficient Test-Time Scaling:
+<div align="center">
 
-Self-Estimating the Best-of-$N$ Sampling in Early Decoding
+  <h2>
+    Sampling-Efficient Test-Time Scaling: Self-Estimating the Best-of-N Sampling in Early Decoding (NeurIPS 2025 Spotlight)
+  </h2>
 
-(NeurIPS 2025 Spotlight)
-</h1>
+</div>
 
-[![Conference](https://img.shields.io/badge/Conference-NeurIPS%202025-yellow.svg?style=plastic)](https://openreview.net/forum?id=BcKYVmh3yH)
-[![Arxiv](https://img.shields.io/badge/Arxiv-2503.01422-red.svg?style=plastic)](https://arxiv.org/abs/2503.01422)
-[![python 3.10](https://img.shields.io/badge/python-3.10-royalblue.svg?style=plastic)](https://www.python.org/)
-[![transformer 4.56.1](https://img.shields.io/badge/transformer-4.56.1-green.svg?style=plastic)](https://huggingface.co/docs/transformers/index)
-[![license Apache-2.0](https://img.shields.io/badge/license-Apache%202.0-inactive.svg?style=plastic)](https://www.apache.org/licenses/LICENSE-2.0)
+
+<p align="center">
+  <a href="https://arxiv.org/abs/2503.01422">
+    <img src="https://img.shields.io/badge/arXiv-2503.01422-b31b1b.svg?logo=arxiv" alt="arXiv Badge"/>
+  </a>
+  <a href="https://openreview.net/forum?id=BcKYVmh3yH">
+    <img src="https://img.shields.io/badge/Conference-NeurIPS%202025-yellow.svg?" alt="Conference"/>
+  </a>
+  <a href="./LICENSE">
+    <img src="https://img.shields.io/badge/License-Apache 2.0-blue.svg?logo=open-source-initiative" alt="Apache-2.0 License Badge"/>
+  </a>
+</p>
 
 
 
@@ -20,6 +27,30 @@ ST-BoN is an efficient parallel decoding method that **exploits early consistenc
 
 <div align=center>
 <img src="./ASSETS/pipeline.png" width="95%" align="center"></img>
+</div>
+
+
+---
+
+## Preliminary Work (Chain-of-Embedding)
+
+<p align="center">
+  <a href="https://arxiv.org/abs/2410.13640">
+    <img src="https://img.shields.io/badge/arXiv-2410.13640-b31b1b.svg?logo=arxiv" alt="arXiv Badge"/>
+  </a>
+  <a href="https://openreview.net/forum?id=BcKYVmh3yH">
+    <img src="https://img.shields.io/badge/Conference-ICLR%202025-green.svg?" alt="Conference"/>
+  </a>
+  <a href="https://github.com/Alsace08/Chain-of-Embedding">
+    <img src="https://img.shields.io/badge/Github-Code-black.svg?logo=github" alt="Apache-2.0 License Badge"/>
+  </a>
+</p>
+
+
+Chain-of-Embedding (CoE) captures a progressive embedding chain from input to output space, obtained by tracking the hidden states of a language model during inference. This chain represents the model’s **latent thinking path**, which we use to compute our early sampling consistency.
+
+<div align=center>
+<img src="./ASSETS/CoE.png" width="60%" align="center"></img>
 </div>
 
 ---
@@ -268,8 +299,8 @@ Optional flag `--save_detail` can store per-sample evaluation details in a singl
 * Provides a concise summary of the folder’s overall performance.
 
 
----
 
+---
 
 ## Citation
 
