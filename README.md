@@ -1,9 +1,10 @@
 
 <div align="center">
 
-  <h2>
-    Sampling-Efficient Test-Time Scaling: Self-Estimating the Best-of-N Sampling in Early Decoding (NeurIPS 2025 Spotlight)
-  </h2>
+  <h1>
+    Sampling-Efficient Test-Time Scaling: Self-Estimating the Best-of-N Sampling in Early Decoding<p>
+    (NeurIPS 2025 Spotlight)
+  </h1>
 
 </div>
 
@@ -38,7 +39,7 @@ ST-BoN is an efficient parallel decoding method that **exploits early consistenc
   <a href="https://arxiv.org/abs/2410.13640">
     <img src="https://img.shields.io/badge/arXiv-2410.13640-b31b1b.svg?logo=arxiv" alt="arXiv Badge"/>
   </a>
-  <a href="https://openreview.net/forum?id=BcKYVmh3yH">
+  <a href="https://openreview.net/forum?id=jxo70B9fQo">
     <img src="https://img.shields.io/badge/Conference-ICLR%202025-green.svg?" alt="Conference"/>
   </a>
   <a href="https://github.com/Alsace08/Chain-of-Embedding">
